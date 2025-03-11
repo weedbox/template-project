@@ -15,7 +15,7 @@ template-project is a Golang-based open-source project designed to provide a rob
 To run the project directly, execute the following command:
 
 ```shell
-go run main.go module.go
+go run main.go modules.go
 ```
 
 ### Environment Variables
@@ -23,7 +23,7 @@ go run main.go module.go
 Get the list of environment variables that can be used to configure the application:
 
 ```shell
-go run main.go module.go --print_configs
+go run main.go modules.go --print_configs
 ```
 
 ## License
